@@ -1,4 +1,7 @@
-let title = document.querySelector('.title');
+function myAlert (){
+    let  a = 'Error';
+    let b = `<p class="orange">${a}</p>`
+    document.querySelector('.test').innerHTML = b;
+}
 
-title.style.color = 'red';
-console.log(title)
+myAlert();
