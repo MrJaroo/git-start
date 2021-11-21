@@ -22,8 +22,8 @@ class Alert2 extends Alert {
         super(a, c, d);
         this.icon = icon
     }
-    showIconAlert(){
-        
+    showIconAlert() {
+
     }
 }
 
@@ -31,4 +31,26 @@ let m = new Alert('Hello world', 'red', '.test');
 console.log(m);
 m.showAlert();
 
-let m2 = new Alert2('My message','red','.test');
+let m2 = new Alert2('My message', 'red', '.test');
+
+class Goods {
+    constructor(a, b, c, d,e) {
+        this.name = a;
+        this.amount = b;
+        this.image = c;
+        this.count = d;
+        this.out = e;
+    }
+
+    draw (){
+        document.querySelector(this.out).innerHTML = `<div>
+        ${this.image}${this.name}${this.count}
+        </div>`
+    }
+
+
+}
+
+let goods = new Goods('Misha', 3,'image',5,'.out-4');
+goods.draw();
+console.log(goods)
