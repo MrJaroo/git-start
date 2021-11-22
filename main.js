@@ -33,3 +33,19 @@
 // console.log(bmi(80,1.50))
 // bmi(80,1.80);
 
+function drinkk(odd) {
+    if (odd >= 4 && odd <= 13) {
+        return 'drink toddy'
+    }
+    else if (odd >=14 && odd <=17) {
+        return 'drink coke'
+    }
+    else if (odd >= 18 && odd < 20) {
+        return 'drink beer';
+    }
+    else if (odd >= 21){
+        return 'drink whisky';
+    }
+}
+
+console.log(drinkk(13));
