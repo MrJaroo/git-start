@@ -33,19 +33,38 @@
 // console.log(bmi(80,1.50))
 // bmi(80,1.80);
 
-function drinkk(odd) {
-    if (odd >= 4 && odd <= 13) {
-        return 'drink toddy'
+// Dting adout
+
+// function drinkk(odd) {
+//     if (odd >= 4 && odd <= 13) {
+//         return 'drink toddy'
+//     }
+//     else if (odd >=14 && odd <=17) {
+//         return 'drink coke'
+//     }
+//     else if (odd >= 18 && odd < 20) {
+//         return 'drink beer';
+//     }
+//     else if (odd >= 21){
+//         return 'drink whisky';
+//     }
+// }
+
+// console.log(drinkk(13));
+
+
+// данную кату списал сам не додумался
+function one(a) {
+    let cor = {
+        "5": 's',
+        "0": 'o',
+        "1": 'i'
     }
-    else if (odd >=14 && odd <=17) {
-        return 'drink coke'
-    }
-    else if (odd >= 18 && odd < 20) {
-        return 'drink beer';
-    }
-    else if (odd >= 21){
-        return 'drink whisky';
-    }
+
+    return a.replace(/[501]/g, (char) => cor[char]);
+
 }
 
-console.log(drinkk(13));
+console.log(one('1 l0ve y0u'))
+
+
