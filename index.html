@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Test</title>
+    <link rel="icon" type="image/png" href="img/guitar.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Guitar Shop</title>
 </head>
 
 <body>
-    
+    <div id="header"></div>
+    <div id="products"></div>
+    <div id="shoping"></div>
+
+    <!-- Constants and Utils -->
+    <script src="constants/catalog.js"></script>
+    <script src="constants/root.js"></script>
+    <script src="utils/localStorageUtil.js"></script>
+
+
     <script src="main.js"></script>
+    <!-- Header -->
+    <script src="components/Header/Header.js"></script>
+    <link rel="stylesheet" href="components/Header/Header.css">
+
+    <!-- products -->
+    <script src="components/Products/Products.js"></script>
+    <link rel="stylesheet" href="components/Products/Products.css">
+
+    <!-- shoping -->
+    <script src="components/Shoping/Shoping.js"></script>
+    <link rel="stylesheet" href="components/Shoping/Shoping.css">
+    
+    
+    
 </body>
 
 </html>
