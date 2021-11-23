@@ -82,8 +82,18 @@
 // }
 
 // console.log(swichItUp(1));
+let arr = ['i love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all']
+function one(number) {
+    let b = '';
+    for (let i = 0; i < number; i++) {
+        b = i;
+    }
+
+    return arr[b];
+}
 
 
+console.log(one(7));
 
 
 
