@@ -54,17 +54,38 @@
 
 
 // данную кату списал сам не додумался
-function one(a) {
-    let cor = {
-        "5": 's',
-        "0": 'o',
-        "1": 'i'
-    }
+// function one(a) {
+//     let cor = {
+//         "5": 's',
+//         "0": 'o',
+//         "1": 'i'
+//     }
 
-    return a.replace(/[501]/g, (char) => cor[char]);
+//     return a.replace(/[501]/g, (char) => cor[char]);
 
-}
+// }
 
-console.log(one('1 l0ve y0u'))
+// console.log(one('1 l0ve y0u'))
+
+// Swict it Up Code wars
+
+// function swichItUp(number) {
+//     if (number == 1) return 'One';
+//     if (number == 2) return 'two';
+//     if (number == 3) return 'three';
+//     if (number == 4) return 'Four';
+//     if (number == 5) return 'Five';
+//     if (number == 6) return 'Six';
+//     if (number == 7) return 'Seven';
+//     if (number == 8) return 'Eight';
+//     if (number == 9) return 'Nine';
+// }
+
+// console.log(swichItUp(1));
+
+
+
+
+
 
 
