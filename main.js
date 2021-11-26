@@ -83,6 +83,15 @@
 
 // console.log(swichItUp(1));
 
+let flauer = ['i love you','a little', 'a lot', 'passionately', 'madly','not at all'];
+
+
+function one (num) {
+    return flauer[(num - 1) % flauer.length]
+}
+
+console.log(one(30));
+console.log(29);
 
 
 
